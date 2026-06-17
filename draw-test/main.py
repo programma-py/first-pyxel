@@ -1,4 +1,5 @@
 import pyxel
+
 class App:
     def __init__(self):
         pyxel.init(160, 120)
@@ -24,6 +25,5 @@ class App:
         pyxel.blt(30, 90, 0, 16, 0, 15, 16, 2)
         pyxel.blt(50, 90, 0, 0, 67, 11, 13, 2)
         pyxel.blt(70, 90, 0, 16, 69, 11, 11, 2)
-
 
 App()
